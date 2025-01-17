@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>MovieApp</h1>
+    </header>
+    
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar películas...">
+        <button onclick="buscarPelicula()">Buscar</button>
+    </div>
+
+    <div class="movies">
+        <div class="movie">
+            <img src="Images/Gladiador.jpg" alt="Gladiador">
+            <div class="movie-details">
+                <h3>Gladiador</h3>
+                <p>Un épico relato de venganza en el Coliseo Romano.</p>
+                <a href="#" onclick="mostrarGladiador()">Ver detalles</a>
+            </div>
+        </div>
+        
+        <div class="movie">
+            <img src="Images/Interstellar.jpg" alt="Interstellar">
+            <div class="movie-details">
+                <h3>Interstellar</h3>
+                <p>Una odisea espacial en busca de la salvación de la humanidad.</p>
+                <a href="#" onclick="mostrarInterstellar()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Duna.jpg" alt="Duna">
+            <div class="movie-details">
+                <h3>Duna</h3>
+                <p>El viaje de un héroe para proteger un recurso vital en un mundo desértico.</p>
+                <a href="#" onclick="mostrarDuna()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Alien.jpg" alt="Alien: Romulus">
+            <div class="movie-details">
+                <h3>Alien: Romulus</h3>
+                <p>Una nueva entrega de terror y ciencia ficción en el universo de Alien..</p>
+                <a href="#" onclick="mostrarAlien()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Seven.jpg" alt="Seven">
+            <div class="movie-details">
+                <h3>Seven</h3>
+                <p>Dos detectives buscan a un asesino que usa los pecados capitales como método.</p>
+                <a href="#" onclick="mostrarSeven()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Taxi.jpg" alt="Taxi Driver">
+            <div class="movie-details">
+                <h3>Taxi Driver</h3>
+                <p>Un conductor de taxi enfrenta sus demonios en una ciudad decadente.</p>
+                <a href="#" onclick="mostrarTaxi()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Fight.jpg" alt="Fight Club">
+            <div class="movie-details">
+                <h3>Fight Club</h3>
+                <p>Un hombre desilusionado crea un club secreto para liberar su frustración.</p>
+                <a href="#" onclick="mostrarFight()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Batman.jpg" alt="Batman">
+            <div class="movie-details">
+                <h3>Batman</h3>
+                <p>El caballero oscuro lucha contra el crimen en Gotham City.</p>
+                <a href="#" onclick="mostrarBatman()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/poor.jpg" alt="Pobres Criaturas">
+            <div class="movie-details">
+                <h3>Pobres Criaturas</h3>
+                <p>Un viaje surrealista de autodescubrimiento en un mundo peculiar.</p>
+                <a href="#" onclick="mostrarPobres()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Pulp.jpg" alt="Tiempos Violentos">
+            <div class="movie-details">
+                <h3>Tiempos Violentos</h3>
+                <p>Historias entrelazadas de crimen en Los Ángeles.</p>
+                <a href="#" onclick="mostrarTiempos()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Parasite.jpg" alt="Parásitos">
+            <div class="movie-details">
+                <h3>Parásitos</h3>
+                <p>Una familia pobre se infiltra en la vida de una familia rica.</p>
+                <a href="#" onclick="mostrarParásitos()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Wolf.jpg" alt="El Lobo de Wall Street">
+            <div class="movie-details">
+                <h3>El Lobo de Wall Street</h3>
+                <p>El ascenso y caída de un corredor de bolsa sin escrúpulos.</p>
+                <a href="#" onclick="mostrarLobo()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/List.jpg" alt="La Lista de Schindler">
+            <div class="movie-details">
+                <h3>La Lista de Schindler</h3>
+                <p>Un épico relato de venganza en el Coliseo Romano.</p>
+                <a href="#" onclick="mostrarLista()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/X.jpg" alt="X">
+            <div class="movie-details">
+                <h3>X</h3>
+                <p>Un grupo de cineastas enfrenta el terror mientras filman una película.</p>
+                <a href="#" onclick="mostrarX()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Bastardos.jpg" alt="Bastardos Sin Gloria">
+            <div class="movie-details">
+                <h3>Bastardos Sin Gloria</h3>
+                <p>Un grupo de soldados planea asesinar a líderes nazis durante la Segunda Guerra Mundial.</p>
+                <a href="#" onclick="mostrarBastardos()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Prestige.jpg" alt="El Gran Truco">
+            <div class="movie-details">
+                <h3>El Gran Truco</h3>
+                <p>Dos magos rivales llevan su competencia al límite.</p>
+                <a href="#" onclick="mostrarTruco()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Goodfellas.jpg" alt="Buenos Muchachos">
+            <div class="movie-details">
+                <h3>Buenos Muchachos</h3>
+                <p>La vida de un mafioso desde su infancia hasta su caída.</p>
+                <a href="#" onclick="mostrarGoodfellas()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Whiplast.jpg" alt="Whiplash">
+            <div class="movie-details">
+                <h3>Whiplash</h3>
+                <p>Un joven baterista enfrenta los abusos de su estricto maestro.</p>
+                <a href="#" onclick="mostrarWhiplash()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Forrest.jpg" alt="Forrest Gump">
+            <div class="movie-details">
+                <h3>Forrest Gump</h3>
+                <p>Un épico relato de venganza en el Coliseo Romano.</p>
+                <a href="#" onclick="mostrarForrest()">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="Images/Prisoners.jpg" alt="Intriga">
+            <div class="movie-details">
+                <h3>Intriga</h3>
+                <p>Una historia de suspenso llena de giros inesperados.</p>
+                <a href="#" onclick="mostrarIntriga()">Ver detalles</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/movies.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
